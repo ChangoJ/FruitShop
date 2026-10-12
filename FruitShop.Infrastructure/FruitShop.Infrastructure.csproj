@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.31" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.31" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FruitShop.Application\FruitShop.Application.csproj" />
   </ItemGroup>
 
