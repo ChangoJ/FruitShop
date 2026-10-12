@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="FruitShop.Api/FruitShop.Api.csproj" Id="cfed7966-bc96-422b-8676-50b57eade30d" />
+    <Project Path="FruitShop.Application/FruitShop.Application.csproj" Id="4d19d6f4-e4d1-4da6-920d-1b7599ec4a75" />
+    <Project Path="FruitShop.Domain/FruitShop.Domain.csproj" Id="5d25d2ea-7788-4071-8ea4-b86ba9ffde6f" />
+    <Project Path="FruitShop.Infrastructure/FruitShop.Infrastructure.csproj" Id="79a89b75-a7d4-4d71-bb5b-50d9f50211f5" />
+  </Folder>
+</Solution>
