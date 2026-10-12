@@ -93,6 +93,10 @@ namespace FruitShop.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Category");
+
+                    SqlServerIndexBuilderExtensions.IncludeProperties(b.HasIndex("Category"), new[] { "Name", "Price" });
+
                     b.ToTable("Products");
                 });
 

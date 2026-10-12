@@ -17,6 +17,8 @@ namespace FruitShop.Infrastructure.Persistence
                 e.Property(p => p.Name).HasMaxLength(200).IsRequired();
                 e.Property(p => p.Category).HasMaxLength(100).IsRequired();
                 e.Property(p => p.Price).HasPrecision(10, 2);
+                e.HasIndex(p => p.Category)
+                    .IncludeProperties(p => new { p.Name, p.Price });
             });
 
             modelBuilder.Entity<OrderItem>()
